@@ -1,7 +1,7 @@
 # Aurorae-Customizable-Theme
 An aurorae theme and a simple script that uses yad for customization.
 Dependencies:
-1.fish (fish shell) 2.yad
+1. fish (fish shell) 2. yad
 
 To install this theme, change to the root directory of the repo, open a terminal and type: cp Ultimate-Cus /home/$USER/.local/share/aurorae/themes/
 After that, open KDE System Settings and navigate to Application Style>Window Decorations, select the theme called Ultimate Cus and click apply.
