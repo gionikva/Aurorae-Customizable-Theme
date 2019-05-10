@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="52"
+   height="172"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="minimize.svg">
+  <title
+     id="title911">Quasi Deepin Dark II</title>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#0088e1"
+     bordercolor="#666666"
+     borderopacity="1"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.0523256"
+     inkscape:cx="-89.649524"
+     inkscape:cy="85.999999"
+     inkscape:document-units="px"
+     inkscape:current-layer="deactivated-center"
+     showgrid="true"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="6"
+     fit-margin-left="6"
+     fit-margin-right="6"
+     fit-margin-bottom="6"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-grids="true"
+     inkscape:snap-nodes="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-smooth-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="4"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="-4.5283809e-07"
+       originy="1.6534676e-06"
+       spacingx="1"
+       spacingy="1" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Quasi Deepin Dark II</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Giacomo Barazzetti</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(55.999955,54.49997)">
+    <g
+       transform="matrix(3.7795276,0,0,3.7795276,-624.99998,-711.01997)"
+       id="active-center">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.02360696;stroke-opacity:0.60784314"
+         id="rect4790-6"
+         width="10.583333"
+         height="10.583249"
+         x="152.13542"
+         y="175.29175" />
+      <rect
+         style="opacity:1;fill:#a6a6a6;fill-opacity:1;stroke:none;stroke-width:0.67409056;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="rect913"
+         width="5.953125"
+         height="0.66145831"
+         x="154.51668"
+         y="180.38498" />
+    </g>
+    <g
+       id="hover-center"
+       transform="matrix(3.7795276,0,0,3.7795276,-624.99998,-671.01984)">
+      <rect
+         y="175.29172"
+         x="152.13542"
+         height="10.583278"
+         width="10.583333"
+         id="rect847"
+         style="opacity:1;fill:#414141;fill-opacity:1;stroke:none;stroke-width:0.02360698;stroke-opacity:0.60784314" />
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.67409056;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="rect913-9"
+         width="5.953125"
+         height="0.66145831"
+         x="154.51668"
+         y="180.38493" />
+    </g>
+    <g
+       transform="matrix(3.7795276,0,0,3.7795276,-624.99998,-631.01973)"
+       id="pressed-center">
+      <rect
+         style="opacity:1;fill:#1d1d1d;fill-opacity:1;stroke:none;stroke-width:0.02360701;stroke-opacity:0.60784314"
+         id="rect853"
+         width="10.583333"
+         height="10.583306"
+         x="152.13542"
+         y="175.29169" />
+      <rect
+         style="opacity:1;fill:#2ca7f8;fill-opacity:1;stroke:none;stroke-width:0.67409056;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="rect913-1"
+         width="5.953125"
+         height="0.66145831"
+         x="154.51668"
+         y="180.3849" />
+    </g>
+    <g
+       id="deactivated-center"
+       transform="matrix(3.7795276,0,0,3.7795276,-624.99998,-591.01962)">
+      <rect
+         y="175.29166"
+         x="152.13542"
+         height="10.583334"
+         width="10.583333"
+         id="rect859"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.02360705;stroke-opacity:0.60784314" />
+      <rect
+         style="opacity:1;fill:#a6a6a6;fill-opacity:0.39215686;stroke:none;stroke-width:0.6740905;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="rect913-1-2"
+         width="5.953125"
+         height="0.66145831"
+         x="154.51668"
+         y="180.38487" />
+    </g>
+  </g>
+</svg>

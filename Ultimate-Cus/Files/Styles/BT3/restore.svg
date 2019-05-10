@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="52"
+   height="172.00002"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="restore.svg">
+  <title
+     id="title894">Quasi Deepin Dark II</title>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#0088e1"
+     bordercolor="#666666"
+     borderopacity="1"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.0523253"
+     inkscape:cx="-90.632392"
+     inkscape:cy="86.000008"
+     inkscape:document-units="px"
+     inkscape:current-layer="deactivated-center"
+     showgrid="true"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="6"
+     fit-margin-left="6"
+     fit-margin-right="6"
+     fit-margin-bottom="6"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-grids="true"
+     inkscape:snap-nodes="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-smooth-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="4"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="-9.7766133e-08"
+       originy="6.2190134e-06"
+       spacingx="1"
+       spacingy="1" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Quasi Deepin Dark II</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Giacomo Barazzetti</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(66.507083,61.005497)">
+    <g
+       transform="matrix(3.7795276,0,0,3.7795276,-635.50682,-717.52567)"
+       id="active-center">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.02360691;stroke-opacity:0.60784314"
+         id="rect4790-6"
+         width="10.583333"
+         height="10.583207"
+         x="152.13535"
+         y="175.29179" />
+      <path
+         style="opacity:1;fill:#a6a6a6;fill-opacity:1;stroke:none;stroke-width:0.55964333;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         d="m 155.17803,177.47462 v 0.66143 l 4.63029,1.3e-4 v 4.6301 h 0.6614 v -4.6301 -0.66144 z m -0.66143,1.32289 v 4.63011 l 4.63032,1.2e-4 v -4.63013 z m 0.66143,0.66144 3.30746,1.2e-4 v 3.30721 l -3.30746,-1e-4 z"
+         id="rect896"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccccccccccccc" />
+    </g>
+    <g
+       id="hover-center"
+       transform="matrix(3.7795276,0,0,3.7795276,-635.50682,-677.52551)">
+      <rect
+         y="175.29175"
+         x="152.13535"
+         height="10.583249"
+         width="10.583333"
+         id="rect847"
+         style="opacity:1;fill:#414141;fill-opacity:1;stroke:none;stroke-width:0.02360695;stroke-opacity:0.60784314" />
+      <path
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5596692;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         d="m 155.17807,177.47457 v 0.66145 h 4.6302 v 4.6302 h 0.66145 v -4.6302 -0.66145 z m -0.66147,1.32292 v 4.6302 h 4.63022 v -4.63022 z m 0.66147,0.66145 h 3.30728 v 3.30728 l -3.30728,2e-5 z"
+         id="rect896-3"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccccccccccccc" />
+    </g>
+    <g
+       transform="matrix(3.7795276,0,0,3.7795276,-635.50682,-637.52535)"
+       id="pressed-center">
+      <rect
+         style="opacity:1;fill:#1d1d1d;fill-opacity:1;stroke:none;stroke-width:0.023607;stroke-opacity:0.60784314"
+         id="rect853"
+         width="10.583333"
+         height="10.583292"
+         x="152.13535"
+         y="175.29172" />
+      <path
+         style="opacity:1;fill:#2ca7f8;fill-opacity:1;stroke:none;stroke-width:0.559668;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         d="m 155.17807,177.47453 v 0.66144 l 4.6302,3e-5 v 4.63018 h 0.66145 v -4.63018 -0.66145 z m -0.66147,1.32291 v 4.63019 l 4.63022,2e-5 v -4.63021 z m 0.66147,0.66145 3.30728,3e-5 v 3.30726 h -3.30728 z"
+         id="rect896-6"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccccccccccccc" />
+    </g>
+    <g
+       id="deactivated-center"
+       transform="matrix(3.7795276,0,0,3.7795276,-635.50682,-597.52519)">
+      <rect
+         y="175.29167"
+         x="152.13535"
+         height="10.583334"
+         width="10.583333"
+         id="rect859"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.02360705;stroke-opacity:0.60784314" />
+      <path
+         style="opacity:1;fill:#a6a6a6;fill-opacity:0.39215686;stroke:none;stroke-width:0.559668;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         d="m 155.17807,177.47449 v 0.66144 l 4.6302,3e-5 v 4.63018 h 0.66145 v -4.63018 -0.66145 z m -0.66147,1.32291 v 4.63019 l 4.63022,2e-5 v -4.63021 z m 0.66147,0.66145 3.30728,3e-5 v 3.30726 h -3.30728 z"
+         id="rect896-6-7"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccccccccccccc" />
+    </g>
+  </g>
+</svg>
