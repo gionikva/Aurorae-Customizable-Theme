@@ -10,71 +10,59 @@ set b1 (sed '24q;d' $rcdir)
 set bsize (string sub $b1 --start 14)
 set ct (sed '2q;d' /home/$USER/.local/share/konsole/Ultimate-Cus.colorscheme)
 set colort (string sub $ct -s 7)
-while not test $status -eq 10
-and test -z $val
-    set stati (yad --form --columns=2 --field=Change\ Opacity:FBTN "fish -c \"echo 3 && killall yad\"" --field=Change\ Color:FBTN "fish -c \"echo 2 && killall yad\"" --field=Set\ Button\ Size:FBTN "fish -c \"echo 4 && killall yad\"" --field=Set\ Button\ Theme:FBTN "fish -c \"echo 5 && killall yad\"" --field=Save\ Profile:FBTN "fish -c \"echo 6 && killall yad\"" --field=Load\ Profile:FBTN "fish -c \"echo 7 && killall yad\"" --button=Apply\ Changes:"fish -c \"echo 11 && killall yad\"" --button=Exit:"fish -c \"echo 10 && killall yad\"" --center)
+set bthlist BT1 BT2 BT3 BT4 BT5 BT6
+while not test $stat -eq 10
+    set stati (yad --form --columns=1 --field=Customize:FBTN "fish -c \"echo 1 && killall yad\"" --field=Save\ Profile:FBTN "fish -c \"echo 2 && killall yad\"" --field=Load\ Profile:FBTN "fish -c \"echo 3 && killall yad\"" --button=Apply\ Changes:"fish -c \"echo 5 && killall yad\"" --button=Exit:"fish -c \"echo 10 && killall yad\"" --center)
     if test $status -eq 252
         exit
     end
     #Switch statement
-    switch $stati
-    #Color selection
+switch $stati
+case 1
+    set l (count $bthlist)
+    for i in (seq $l)
+        if test $selection = $bthlist[$i]
+            set bthlist[$i] "^$bthlist[$i]"
+        end
+    end
+    set val1 $bthlist[1]
+    for i in $bthlist[2..-1]
+        set val1 "$val1!$i"
+    end
+    set opval (python -c "print(int($opac*100))")
+    set val (yad --form --center --field="Button Theme":CB $val1 --field="Set Opacity":SCL --field="Set Button Size":SCL $opval $bsize --field="Choose Color":CLR --separator=\n --mode=rgb $color  --item-separator=!)
+    set isempty 0
+    for i in (seq 4)
+        if test -z $val[$i]
+            set -g isempty 1
+        end
+    end
+    if not test $isempty -eq 1
+        set ct1 (string sub $val[4] -s 4)
+        set colort (python -c "print('#%02x%02x%02x' % $ct1)")
+        set opac (python -c "print($val[2] / 100)")
+        set bsize $val[3]
+        set selection $val[1]
+        set color $val[4]
+    end
     case 2
-        set valcolor (yad --color --center --gtk-palette --init-color=$color --button="Quit Script":10 --button=Cancel:45 --button=Select:0 --title=Color\ Selection --mode=rgb)
-        set ct1 (string sub $valcolor -s 4)
-        if test $status -eq 10
-            exit
-        end
-        if not test -z $ct1
-            set colort (python -c "print('#%02x%02x%02x' % $ct1)")
-        end
-        if not test -z $valcolor
-            set color $valcolor
-        end
-    #Opcaity selection
-    case 3
-        set opval (string sub (python -c "print($opac*100)") -l 2)
-        set valopac (yad --scale --text='Set Opacity' --value=$opval --width=320 --height=160 --center --button="Quit Script":10 --button=Cancel:45 --button=Select:0)
-        if test $status -eq 10
-            exit
-        end
-        if not test -z $valopac
-            set opac (lua -e "print($valopac/100)")
-        end
-    #Button size selection
-    case 4
-        set valbsize (yad --scale --text='Set Button Size' --value=$bsize --min-value=12 --max-value=50 --width=320 --height=160 --center --button="Quit Script":10 --button=Cancel:45 --button=Select:0)
-        if test $status -eq 10
-            exit
-        end
-        if not test -z $valbsize
-            set bsize $valbsize
-        end
-    #Button theme selection
-    case 5
-        set sel1 (yad --list --column=Themes BT1 BT2 BT3 BT4 BT5 BT6 --text="Current\ Theme: $selection" --text-align=left --width=220 --height=230 --center --button="Quit Script":10 --button=Cancel:45 --button=Select:0)
-        if test $status -eq 10
-            exit
-        end
-        if not test -z $sel1
-            set -g selection (string sub $sel1 -l 3)
-        end
-    #Save profile
-    case 6
         set sfile (yad --file --save --center)
         echo Opacity:\n$opac\nColor:\n$color\nButton Theme:\n$selection\nButton Size:\n$bsize | cat > "$sfile.actp"
     #Load profile
-    case 7
+    case 3
         set lfile (yad --file --center)
         set -g opac (sed '2q;d' $lfile)
         set -g color (sed '4q;d' $lfile)
         set -g selection (sed '6q;d' $lfile)
         set -g bsize (sed '8q;d' $lfile)
+        set ct1 (sed '4q;d' $lfile)
+        set -g colort (python -c "print('#%02x%02x%02x' % $ct1)")
     #Quit script
     case 10
         exit
     #Apply Changes
-    case 11
+    case 5
+        set -g stat 10
         set -g val 1
         sed -i "270s/.*/$opac;/" $decdir
         sed -i "272s/.*/$color;/" $decdir
@@ -96,7 +84,7 @@ and test -z $val
             end
         end
         #Modify the rc file accordingly
-        zenity --question --text='Reload Kwin?'
+        yad --question --text='Reload Kwin?' --center --width=200 --height=120 --button=No:1 --button=Yes:0 --text-align=center --window-icon=/usr/share/icons/breeze/status/64/dialog-question.svg --image=/usr/share/icons/breeze/status/64/dialog-question.svg
         if test $status -eq 0
             setsid kwin_x11 --replace
         end
